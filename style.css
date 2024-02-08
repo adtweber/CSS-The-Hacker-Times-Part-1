@@ -1,66 +1,82 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
 
+body {
+    background-color: #eee;
+    position: absolute;
+    text-align: center;
+}
+
 h1 {
     font-family: Abril Fatface;
     text-align: center;
 }
 
-.date { font-family: Source Sans Pro;
-
+.date { 
+    font-family: Source Sans Pro;
+    text-align: left;
 }
 
-h2, h4 {
+h2 {
+    font-family: Roboto Slab;
+    text-align: left;
+}
+
+h4 {
     font-family: Roboto Slab;
 }
 
 h5 {
     font-family: Abril Fatface;
     color: red;
+    text-align: left;
 }
 
 p {
     font-family: Source Sans Pro;
+    padding-bottom: 25px;
+    text-align: justify;
+    color: #777;
 }
 
 .newspaper-container {
     width: 700px;
-    border-radius: 15px 50px 30px 5px;
+    border-color:#777
+    border-radius: 25%;
     box-shadow: #ddd
     background-color: white;
-    box-shadow: #ddd;
 }
 
 li {
-    list-style-type: none;
     display: inline-block;
     color: #777;
     font-family: Source Sans Pro;
+    margin-right: 20px;
+
 }
 
 nav {
     border-top: solid #777;
-    border-bottom: solid #777; 
+    border-bottom: solid #777;
     border-width: thin;
+    font-size: small;
 }
 
 .more-articles {
-    display: inline;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .article-border {
     border-bottom: solid #777;
     border-width: thin;
-    padding-top: 10px;
 }
 
 .image-one { 
-    float: left;
-    width: 50%;
-    padding: 5px;
+    display: inline-block;
+    width: 80%;
 }
 
 .image-two {
-    float: right;
-    width: 50%;
-    padding: 5px;
+    display: inline-block;
+    width: 80%;
 }
